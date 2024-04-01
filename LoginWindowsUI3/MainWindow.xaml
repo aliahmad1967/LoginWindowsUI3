@@ -15,8 +15,30 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
-        <StackPanel Background="Red" Grid.Column="0">
-            <Image Stretch="Uniform" Source="/Assets/SampleMedia/companyWUI.jpg" />
+        <StackPanel  Padding="30" Grid.Column="0">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="/Assets/SampleMedia/companyWUI.jpg" />
+            </StackPanel.Background>
+            <StackPanel HorizontalAlignment="Center">
+                <TextBlock Foreground="#1967D2" FontWeight="ExtraBold" Margin="25,100,0,0" FontSize="32" Text="Wellcome To !!"/>
+            </StackPanel>
+            
+            <StackPanel Margin="0,100,0,0" HorizontalAlignment="Center" Orientation="Horizontal">
+                <Button Margin="5">
+                    <FontIcon Glyph="&#xEB41;" />
+                </Button>
+                <Button Margin="5">
+                    <FontIcon Glyph="&#xEB41;" />
+                </Button>
+                <Button Margin="5">
+                    <FontIcon Glyph="&#xEB41;" />
+                </Button>
+                <Button Margin="5">
+                    <FontIcon Glyph="&#xEB41;" />
+                </Button>
+                
+            </StackPanel>
+           
 
 
         </StackPanel>
